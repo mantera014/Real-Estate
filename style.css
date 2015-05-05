@@ -1,0 +1,242 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin: 0;
+	color: #232323;
+	padding-top: 0px;
+	padding-right: 0;
+	padding-bottom: 5px;
+	padding-left: 0;
+	background: #ffffff;
+	background-attachment: scroll;
+	alignment-adjust: auto;
+}
+div, h1, h2, h3, h4, p, form, label, input, textarea, img, span{
+	margin:0; padding:0;
+}
+
+ul{
+	margin:0; 
+	padding:0; 
+	list-style-type:none;
+	font-size:0;
+	line-height:0;
+}
+
+
+.spacer{
+	clear:both; 
+	font-size:0; 
+	line-height:0;
+}
+img
+{
+border:none;
+}
+
+/*------------------------------------------------body--------------------*/
+
+#header
+{
+margin:0 auto;
+padding:0px;
+width:929px;
+height:335px;
+background:url(images/header.jpg) center no-repeat;
+}
+#navigation
+{
+width:929px;
+height:36px;
+margin:0 auto;
+padding-top:8px;
+background:url(images/navigation_bg.jpg) 0 0 repeat-x;
+}
+#navigation ul
+{
+list-style:none;
+}
+#navigation ul li
+{
+font:bold 12px/28px Arial, Helvetica, sans-serif;
+color:#ffffff;
+display:block;
+float:left;
+background:url(images/li_bg.jpg) right center no-repeat;
+text-align:center;
+padding:0px 40px;
+}
+#navigation ul li a
+{
+text-decoration:none;
+display:block;
+color:#ffffff;
+}
+#navigation ul li a:hover
+{
+text-decoration:underline;
+display:block;
+color:#FFFFFF;
+background:url(images/navigation_hover.jpg) bottom center no-repeat;
+}
+#content
+{
+margin:0 auto;
+width:929px;
+padding:5px 0;
+}
+h1
+{
+font:bold 24px/28px Arial, Helvetica, sans-serif;
+color:#676767;
+}
+h2
+{
+	font: bold 18px/24px Arial, Helvetica, sans-serif;
+	color: #333333;
+}
+h3
+{
+font:normal 12px/20px Arial, Helvetica, sans-serif;
+color:#a9a9a9;
+}
+h4
+{
+font:bold 20px/28px Arial, Helvetica, sans-serif;
+color:#676767;
+padding-left:25px;
+}
+p
+{
+font:normal 12px/18px Arial, Helvetica, sans-serif;
+color:#414141;
+}
+.orange
+{
+font:normal 12px/18px Arial, Helvetica, sans-serif;
+color:#cf570c;
+}
+.black
+{
+font:bold 12px/18px Arial, Helvetica, sans-serif;
+color:#000000;
+}
+#content_top
+{
+margin:0 auto;
+width:929px;
+padding:5px 0;
+}
+#find
+{
+margin:0;
+background:#eeeeee;
+width:280px;
+padding:6px;
+}
+#find form input.textbox
+{
+width:146px;
+}
+#select
+{
+width:150px;
+}
+#find form input.find
+{
+width:106px;
+height:25px;
+background:url(images/find.jpg) 0 0 no-repeat;
+border:none;
+}
+#main_content
+{
+float:right;
+width:612px;
+}
+#house_sales
+{
+margin:5px auto;
+width:600px;
+}
+.house_sales
+{
+font:bold 12px/31px Arial, Helvetica, sans-serif;
+color:#000000;
+width:184px;
+height:31px;
+background:url(images/price_bg.jpg) center no-repeat;
+text-align:center;
+margin:5px auto;
+}
+#content_bottom
+{
+margin:0 auto;
+width:929px;
+padding:10px 0;
+}
+.features
+{
+	float: left;
+	width: 400px;
+	padding: 6px;
+}
+.features_content
+{
+margin:5px auto;
+width:195px;
+text-align:justify;
+padding-left:70px;
+}
+.more
+{
+font:normal 12px/18px Arial, Helvetica, sans-serif;
+color:#4299da;
+}
+.more a
+{
+font:normal 12px/18px Arial, Helvetica, sans-serif;
+color:#4299da;
+}
+.more a:hover
+{
+font:normal 12px/18px Arial, Helvetica, sans-serif;
+color:#4299da;
+}
+/*------------------------------------------------fotter--------------------*/
+#fotter
+{
+margin:0 auto;
+padding:13px 5px;
+height:24px;
+background:#2f2f2f;
+width:919px;
+}
+.design_info
+{
+margin:0 auto;
+width:400px;
+font: normal 11px/24px Arial, Helvetica, sans-serif;
+color:#e7e7e7;
+float:left;
+padding-left:10px;
+}
+.copyrights
+{
+margin:0 auto;
+width:280px;
+font: normal 11px/24px Arial, Helvetica, sans-serif;
+color:#e7e7e7;
+float:right;
+}
+#fotter a
+{
+color:#d9aa6d;
+text-decoration:none;
+}
+#fotter a:hover
+{
+color:#f6ff00;
+text-decoration:underline;
+}
